@@ -12,6 +12,7 @@
 :root {
     --color-iconos-inicio: #107c10;
     --color-titulos-sesion3: #000;
+    --letra-adentro:SegoeProBlack, "Segoe UI", SegoeUI, Helvetica, Arial, sans-serif; 
 }
 
 body {
@@ -27,7 +28,7 @@ html {
     font-size: 62.5%;
 }
 
-/* sesion 2 80px - 8rem*/
+/* sesion 2 80px - 8rem----------------------------------------------------*/
 .iconos ul {
     display: flex;
     justify-content: center;
@@ -53,6 +54,7 @@ html {
     max-width: 12rem;
     text-align: center;
     margin: 0 2%;
+    
 }
 
 /* .lol{
@@ -72,7 +74,6 @@ html {
     line-height: 2.3rem;
     text-decoration: none;
 }
-
 #iconos_sesion2 a:hover p {
     text-decoration: underline;
     text-decoration-thickness: 0.3rem;
@@ -91,7 +92,7 @@ html {
     background-color: blueviolet;
 } */
 
-/* sesion 3 80px - 8rem*/
+/* sesion 3 80px - 8rem---------------------------------------------------------------------------*/
 .heading-2 h2 {
     font-weight: 700;
     padding: 3.7rem 0 0.3rem;
@@ -135,6 +136,7 @@ html {
     margin-left: 1rem;
     translate: 0;
     transition: 0.2s ease-in-out;
+
 }
 
 #titulos_session3 a:hover p {
@@ -149,7 +151,7 @@ html {
     translate: 0.5rem;
 }
 
-/* sesion 4 80px - 8rem*/
+/* sesion 4 80px - 8rem---------------------------------------------------------------------------*/
 .expacio_sesion4 {
     padding-top: 4.8rem !important;
 }
@@ -215,7 +217,7 @@ html {
     translate: 0.5rem;
 }
 
-/* sesion 5 80px - 8rem*/
+/* sesion 5 80px - 8rem---------------------------------------------------------------------------*/
 .iconos5 {
     padding: 0 1rem;
 }
@@ -262,7 +264,7 @@ html {
     border: 0.1rem solid var(--color-titulos-sesion3);
 }
 
-/* sesion 6 80px - 8rem*/
+/* sesion 6 80px - 8rem------------------------------------------------------------------------*/
 .expacio_sesion6 {
     padding-top: 4rem !important;
 }
@@ -328,7 +330,7 @@ html {
     translate: 0.5rem;
 }
 
-/* sesion 7 80px - 8rem*/
+/* sesion 7 80px - 8rem---------------------------------------------------------------------------*/
 .iconos7 {
     padding: 0 1rem;
 }
@@ -336,7 +338,6 @@ html {
 .iconos7 ul {
     display: flex;
     flex: 1;
-    /* width: 500px; */
     justify-content: space-between;
     overflow-x: hidden;
     gap: 2rem;
@@ -370,3 +371,102 @@ html {
 #iconos_sesion7 a:hover img {
     border: 0.1rem solid var(--color-titulos-sesion3);
 }
+
+/* sesion 9 80px - 8rem----------------------------------------------------------------------------*/
+.expacio_sesion9 {
+    padding-top: 4rem !important;
+}
+
+.heading-9 div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+
+}
+
+.heading-9 h2 {
+    
+    font-weight: 700;
+    font-size: 4.6rem;
+    line-height: 5.6rem;
+}
+
+#titulos_session9 p {
+    color: var(--color-titulos-sesion3);
+    margin-right: 10rem;
+}
+
+/* sesion 10 80px - 8rem--------------------------------------------------------------------------*/
+.iconos10{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   
+}
+.expacio_sesion10 {
+    padding-top: 6rem !important;
+}
+.iconos10 ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(25rem,1fr));
+    column-gap:3.6rem ;
+    justify-items: center;
+}
+
+.iconos10 a p{
+    font-weight: 900;
+    font-size: 1.5rem;
+    line-height: 1.9rem;
+    padding: 0.6rem 0;
+    text-align: start;
+    border-bottom: 0.3rem solid transparent;
+}
+#iconos_sesion10 img {
+    width: 22rem;
+    border: 0.1rem solid rgba(255, 255, 255, 0);
+    transition: all 0.2s ease-in-out;
+}
+
+#iconos_sesion10 a {
+    color: var(--color-iconos-inicio);
+    text-decoration: none;
+}
+
+#iconos_sesion10 a p i {
+    margin-left: 1rem;
+    translate: 0;
+    transition: 0.2s ease-in-out;
+
+}
+#iconos_sesion10 a:hover p {
+    color: #094709;
+    text-decoration: underline;
+    text-decoration-thickness: 0.2rem;
+}
+#iconos_sesion10 p:hover i {
+    color: #094709;
+    translate: 0.5rem;
+  }
+
+/* sesion 11 80px - 8rem--------------------------------------------------------------------------*/
+
+.heading10 h2 {
+    
+    font-weight: 700;
+    font-size: 8.6rem;
+    line-height: 8.2rem;
+}
+#imagendefondo_titulo img{
+    width: 100%;
+    max-width: 192rem;
+}
+#imagendefondo_titulo h2{
+    font-family: var(--letra-adentro);
+    color: var(--color-iconos-inicio);
+    margin-right: 10rem;
+    text-align: center;
+    margin-top: -12rem;
+}
+
+
