@@ -248,6 +248,7 @@ html {
 }
 
 #iconos_sesion5 img {
+    object-fit: contain;
     border: 0.1rem solid rgba(255, 255, 255, 0);
     transition: all 0.2s ease-in-out;
 }
@@ -258,5 +259,114 @@ html {
 }
 
 #iconos_sesion5 a:hover img {
+    border: 0.1rem solid var(--color-titulos-sesion3);
+}
+
+/* sesion 6 80px - 8rem*/
+.expacio_sesion6 {
+    padding-top: 4rem !important;
+}
+
+.heading-6 div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+
+}
+
+.heading-6 h3 {
+    font-weight: 700;
+    font-size: 3.4rem;
+    line-height: 4rem;
+}
+
+.heading-6 a p {
+    padding: 1.0rem 0.3px 0.3px 0;
+    font-weight: 900;
+    font-size: 1.5rem;
+    position: relative;
+    border: 0.2rem solid transparent;
+    outline: 0.1rem solid transparent;
+    outline-offset: -0.3rem;
+    margin-left: 0;
+    background: transparent;
+    margin-top: 1.4rem;
+    vertical-align: middle;
+    max-width: 100%;
+    padding-left: 0px !important;
+    overflow: hidden;
+}
+
+#titulos_session6 h3 {
+    color: var(--color-titulos-sesion3);
+    margin-right: 10rem;
+}
+
+#titulos_session6 a {
+    color: var(--color-iconos-inicio);
+    text-align: center;
+    text-decoration: none;
+}
+
+#titulos_session6 a p i {
+    margin-left: 0.1rem;
+    translate: 0;
+    transition: 0.2s ease-in-out;
+
+}
+
+#titulos_session6 a:hover p {
+    color: #094709;
+    text-decoration: underline;
+    text-decoration-thickness: 0.2rem;
+}
+
+#titulos_session6 p:hover i {
+    color: #094709;
+    translate: 0.5rem;
+}
+
+/* sesion 7 80px - 8rem*/
+.iconos7 {
+    padding: 0 1rem;
+}
+
+.iconos7 ul {
+    display: flex;
+    flex: 1;
+    /* width: 500px; */
+    justify-content: space-between;
+    overflow-x: hidden;
+    gap: 2rem;
+}
+
+.iconos7 a h4 {
+    font-weight: 700;
+    padding: 0.6rem;
+    text-align: start;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    border-bottom: 0.3rem solid transparent;
+}
+
+#iconos_sesion7 a {
+    color: var(--color-titulos-sesion3);
+    text-decoration: none;
+}
+
+#iconos_sesion7 img {
+    max-width: 28.2rem;
+    border: 0.1rem solid rgba(255, 255, 255, 0);
+    transition: all 0.2s ease-in-out;
+}
+
+#iconos_sesion7 a:hover h4 {
+    text-decoration: underline;
+    text-decoration-thickness: 0.1rem;
+}
+
+#iconos_sesion7 a:hover img {
     border: 0.1rem solid var(--color-titulos-sesion3);
 }
