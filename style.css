@@ -1,0 +1,211 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    list-style: none;
+    text-decoration: none;
+    backface-visibility: hidden;
+}
+
+:root {
+    --color-iconos-inicio: #107c10;
+    --color-titulos-sesion3: #000;
+}
+
+body {
+    font-family: Segoe UI, SegoeUI, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+/* sesion 2 80px - 8rem*/
+.iconos ul {
+    display: flex;
+    justify-content: center;
+}
+
+.iconos img {
+    width: 80%;
+    max-width: 8rem;
+}
+
+.iconos a p {
+    font-weight: 600;
+    padding: 0.6rem;
+    text-align: center;
+    line-height: 2.3rem;
+    font-size: 1.5rem;
+    line-height: 2.3rem;
+    border-bottom: 0.3rem solid transparent;
+}
+
+.iconos li {
+    width: 30%;
+    max-width: 12rem;
+    text-align: center;
+    margin: 0 2%;
+}
+
+/* .lol{
+    background-color: blueviolet;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    align-self: center;
+    
+    
+} */
+
+#iconos_sesion2 a {
+    width: 600;
+    color: var(--color-iconos-inicio);
+    size: 1.5rem;
+    line-height: 2.3rem;
+    text-decoration: none;
+}
+
+#iconos_sesion2 a:hover p {
+    text-decoration: underline;
+    text-decoration-thickness: 0.3rem;
+}
+
+/* .carta{
+    transform: scale(20);
+    color: red;
+    position:absolute;
+    top: 50%;
+    right: 50%;
+    transform:translate(-50%,-50%)scale(20);
+    
+} */
+/* .contenedor_icono_carta{
+    background-color: blueviolet;
+} */
+
+/* sesion 3 80px - 8rem*/
+.heading-2 h2 {
+    font-weight: 700;
+    padding: 3.7rem 0 0.3rem;
+    letter-spacing: -.01em;
+    font-size: 4.6rem;
+}
+
+.heading-2 a p {
+    padding: 1.0rem 0.3px 0.3px 0;
+    font-weight: 900;
+    font-size: 1.5rem;
+    position: relative;
+    border: 0.2rem solid transparent;
+    outline: 0.1rem solid transparent;
+    outline-offset: -0.3rem;
+    margin-left: 0;
+    background: transparent;
+    margin-top: 1.4rem;
+    vertical-align: middle;
+    max-width: 100%;
+    padding-left: 0px !important;
+    overflow: hidden;
+}
+
+#titulos_session3 h2 {
+    color: var(--color-titulos-sesion3);
+    line-height: 5.6rem;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    text-align: center;
+    padding-top: 5.8rem;
+}
+
+#titulos_session3 a {
+    color: var(--color-iconos-inicio);
+    text-align: center;
+    text-decoration: none;
+}
+
+#titulos_session3 a p i {
+    margin-left: 1rem;
+    translate: 0;
+    transition: 0.2s ease-in-out;
+}
+
+#titulos_session3 a:hover p {
+    color: #094709;
+    text-decoration: underline;
+    text-underline-offset: 0.4rem;
+    text-decoration-thickness: 0.2rem;
+}
+
+#titulos_session3 p:hover i {
+    color: #094709;
+    translate: 0.5rem;
+}
+
+/* sesion 4 80px - 8rem*/
+.expacio_sesion4{
+    padding-top: 4.8rem !important;
+}
+.heading-4 div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    
+}
+.heading-4 h3{
+    font-weight: 700;
+    font-size: 3.4rem;
+    line-height: 4rem;
+}
+
+.heading-4 a p {
+    padding: 1.0rem 0.3px 0.3px 0;
+    font-weight: 900;
+    font-size: 1.5rem;
+    position: relative;
+    border: 0.2rem solid transparent;
+    outline: 0.1rem solid transparent;
+    outline-offset: -0.3rem;
+    margin-left: 0;
+    background: transparent;
+    margin-top: 1.4rem;
+    vertical-align: middle;
+    max-width: 100%;
+    padding-left: 0px !important;
+    overflow: hidden;
+}
+
+#titulos_session4 h3 {
+    color: var(--color-titulos-sesion3);
+    margin-right: 10rem;
+}
+#titulos_session4 a {
+    color: var(--color-iconos-inicio);
+    text-align: center;
+    text-decoration: none;
+}
+
+#titulos_session4 a p i {
+    margin-left: 0.1rem;
+    translate: 0;
+    transition: 0.2s ease-in-out;
+    
+}
+#titulos_session4 a:hover p {
+    color: #094709;
+    text-decoration: underline;
+    text-decoration-thickness: 0.2rem;
+}
+#titulos_session4 p:hover i {
+    color: #094709;
+    translate: 0.5rem;
+}
