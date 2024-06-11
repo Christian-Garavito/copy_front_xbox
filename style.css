@@ -1074,3 +1074,59 @@ html {
     color: #094709;
     translate: 0.5rem;
 }
+
+/* sesion 22 80px - 8rem---------------------------------------------------------------------------*/
+.iconos22 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.expacio_sesion22 {
+    padding-top: 6rem !important;
+}
+
+.iconos22 ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    column-gap: 3.6rem;
+    justify-items: center;
+}
+
+.iconos22 a p {
+    font-weight: 900;
+    font-size: 1.5rem;
+    line-height: 1.9rem;
+    padding: 0.6rem 0;
+    text-align: start;
+    border-bottom: 0.3rem solid transparent;
+}
+
+#iconos_sesion22 img {
+    width: 22rem;
+    border: 0.1rem solid rgba(255, 255, 255, 0);
+    transition: all 0.2s ease-in-out;
+}
+
+#iconos_sesion22 a {
+    color: var(--color-iconos-inicio);
+    text-decoration: none;
+}
+
+#iconos_sesion22 a p i {
+    margin-left: 1rem;
+    translate: 0;
+    transition: 0.2s ease-in-out;
+
+}
+
+#iconos_sesion22 a:hover p {
+    color: #094709;
+    text-decoration: underline;
+    text-decoration-thickness: 0.2rem;
+}
+
+#iconos_sesion22 p:hover i {
+    color: #094709;
+    translate: 0.5rem;
+}
