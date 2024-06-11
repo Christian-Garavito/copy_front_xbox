@@ -549,7 +549,7 @@ html {
 #imagendefondo_titulo h2 {
     font-family: var(--letra-adentro);
     color: var(--color-iconos-inicio);
-    margin-right: 10rem;
+    margin-right: 0rem;
     text-align: center;
     margin-top: -12rem;
     text-decoration: underline;
@@ -902,4 +902,175 @@ html {
 
 #iconos_sesion18 a:hover img {
     border: 0.1rem solid var(--color-titulos-sesion3);
+}
+
+/* sesion 19 80px - 8rem--------------------------------------------------------------------------*/
+.heading19{
+    background-color: #e6e6e6;
+}
+.heading19 h2 {
+    font-weight: 700;
+    font-size: 8.6rem;
+    line-height: 8.2rem;
+}
+
+.heading19 p {
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+}
+.heading19 a {
+    font-weight: 900;
+    font-size: 1.5rem;
+    line-height: 1.9rem;
+}
+.centrar19{
+    display: flex;
+    justify-content: center;
+}
+.espacio19{
+    margin-right: 1rem;
+}
+
+#imagendefondo_titulo19 img {
+    width: 100%;
+    max-width: 192rem;
+    margin-top: 7rem;
+}
+
+#imagendefondo_titulo19 h2 {
+    font-family: var(--letra-adentro);
+    color: var(--color-iconos-inicio);
+    margin-right: 0rem;
+    text-align: center;
+    margin-top: -32rem;
+}
+#imagendefondo_titulo19 p {
+    font-family: var(--letra-adentro);
+    color: white;
+    margin-right: 0;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+/* sesion 20 80px - 8rem--------------------------------------------------------------------------*/
+.iconos20 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.expacio_sesion20 {
+    padding-top: 20rem !important;
+}
+
+.iconos20 ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    column-gap: 3.6rem;
+    justify-items: center;
+}
+
+.iconos20 a p {
+    font-weight: 900;
+    font-size: 1.5rem;
+    line-height: 1.9rem;
+    padding: 0.6rem 0;
+    text-align: start;
+    border-bottom: 0.3rem solid transparent;
+}
+
+#iconos_sesion20 img {
+    width: 22rem;
+    border: 0.1rem solid rgba(255, 255, 255, 0);
+    transition: all 0.2s ease-in-out;
+}
+
+#iconos_sesion20 a {
+    color: var(--color-iconos-inicio);
+    text-decoration: none;
+}
+
+#iconos_sesion20 a p i {
+    margin-left: 1rem;
+    translate: 0;
+    transition: 0.2s ease-in-out;
+
+}
+
+#iconos_sesion20 a:hover p {
+    color: #094709;
+    text-decoration: underline;
+    text-decoration-thickness: 0.2rem;
+}
+
+#iconos_sesion20 p:hover i {
+    color: #094709;
+    translate: 0.5rem;
+}
+
+/* sesion 21 80px - 8rem---------------------------------------------------------------------------*/
+.expacio_sesion21 {
+    padding-top: 4.8rem !important;
+}
+
+.heading-21 div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+
+}
+
+.heading-21 h3 {
+    font-weight: 700;
+    font-size: 3.4rem;
+    line-height: 4rem;
+}
+
+.heading-21 a p {
+    padding: 1.0rem 0.3px 0.3px 0;
+    font-weight: 900;
+    font-size: 1.5rem;
+    position: relative;
+    border: 0.2rem solid transparent;
+    outline: 0.1rem solid transparent;
+    outline-offset: -0.3rem;
+    margin-left: 0;
+    background: transparent;
+    margin-top: 1.4rem;
+    vertical-align: middle;
+    max-width: 100%;
+    padding-left: 0px !important;
+    overflow: hidden;
+}
+
+#titulos_session21 h3 {
+    color: var(--color-titulos-sesion3);
+    margin-right: 10rem;
+}
+
+#titulos_session21 a {
+    color: var(--color-iconos-inicio);
+    text-align: center;
+    text-decoration: none;
+}
+
+#titulos_session21 a p i {
+    margin-left: 0.1rem;
+    translate: 0;
+    transition: 0.2s ease-in-out;
+
+}
+
+#titulos_session21 a:hover p {
+    color: #094709;
+    text-decoration: underline;
+    text-decoration-thickness: 0.2rem;
+}
+
+#titulos_session21 p:hover i {
+    color: #094709;
+    translate: 0.5rem;
 }
