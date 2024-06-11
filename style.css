@@ -29,16 +29,27 @@ html {
 }
 
 /* heathrt 80px - 8rem--------------------------------------------------------------------------*/
-.header1 nav{
+.headernav{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
+.headerdiv1{
+    display: flex;   
+}
+.headerdiv1_adentro{
+    display: flex;  
+}
+.headerdiv2{
+    display: flex;
+    
+}
 
-.header1 img{
-    height: 1rem;
-    
-    
+
+
+.headernav img{
+    height: 3rem;
+
 }
 
 /* display: flex;
@@ -427,7 +438,7 @@ html {
     grid-template-areas:
     "juego1 ofertas"
     "juego1 juego2"
-    "gamepass juego2"
+    "gamepass juego2 "
     ;
     grid-template-columns: 1fr 1fr;
 }
