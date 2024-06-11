@@ -27,6 +27,25 @@ html {
     box-sizing: border-box;
     font-size: 62.5%;
 }
+
+/* heathrt 80px - 8rem--------------------------------------------------------------------------*/
+.header1 nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header1 img{
+    height: 1rem;
+    
+    
+}
+
+/* display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 58px; */
+
 /* sesion 1 80px - 8rem--------------------------------------------------------------------------*/
 .heading1 h2 {
     font-weight: 700;
